@@ -24,7 +24,7 @@ public class MainActivityOne extends AppCompatActivity {
         StringBuilder sb = new StringBuilder();
 
 
-        final String chars = "1";
+        final String chars = "123456789";
         for (int i = 0; i < len; i++) {
             int randomIndex = random.nextInt(chars.length());
             sb.append(chars.charAt(randomIndex));
