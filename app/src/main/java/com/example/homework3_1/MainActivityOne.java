@@ -48,7 +48,7 @@ public class MainActivityOne extends AppCompatActivity {
         Intent intent = getIntent();
         String name = intent.getStringExtra("key");
         gettext.setText(name);
-        int len = 10;
+        int len = 6;
         btn_generate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
